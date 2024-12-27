@@ -1,4 +1,4 @@
 export const Practices = () => {
-    return <h1>Interview jhhjh</h1>;
+    return <h1>Interview</h1>;
 
 };
