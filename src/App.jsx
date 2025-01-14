@@ -5,10 +5,11 @@
 // import "./Components/Netflix.module.css";
 // import EventProps from "./Components/EventProps";
 // import "./Components/EV.css";
+import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
 // import {State} from "./Components/hooks/State";
 // import EventPropogation from "./Components/EventPropogation";
-import DeriveState from "./Components/hooks/DeriveState";
-import { LiftingStateUp } from "./Components/LiftingStateUp";
+// import DeriveState from "./Components/hooks/DeriveState";
+// import { LiftingStateUp } from "./Components/LiftingStateUp";
 export const App = () => {
 
   return (
@@ -19,7 +20,8 @@ export const App = () => {
     {/* <EventProps/> */}
     {/* <EventPropogation/> */}
     {/* <DeriveState/> */}
-    <LiftingStateUp />
+    {/* <LiftingStateUp /> */}
+    <ToggleSwitch/>
     </section>
   )
 };
